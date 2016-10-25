@@ -1,0 +1,53 @@
+body {
+      background-color: black; /* background color, set this to anything you want */
+      font-family: verdana; /* default font, set to anything you want, but try to stick to web safe fonts. Search them on google. */
+      font-size: 12px; /* size of font with no headings, set to anything you want, same for h1 thru h8 */
+      color: white; /* text color, set this to anything you want */
+}
+h1 {
+      font-size: 184px;  
+}
+h2 { 
+      font-size: 128px;     
+}
+h3 {
+      font-size: 96px;
+}
+h4 {
+      font-size: 64px;
+}
+h5 {
+      font-size: 48px;
+}
+h6 {
+      font-size: 32px;
+}
+h7 {
+      font-size: 24px;
+}
+h8 {
+      font-size: 16px;
+}
+p {
+      font-size: 12px;
+      font-color: LightGray;
+}
+
+table {
+      border-collapse: collapse; /* remove this if you want 2 headings */
+}      
+table, th, td {
+      border: 2px solid black;
+}
+a:hover {
+      color: yellow; /* the color when you mouse over a link, change to whatever you want */
+}      
+a:link { 
+      color: white; /* just to make sure the links are flush with the page, unclicked unhovered link. */
+}
+a:active {
+      color: blue; /* when a link is clicked, change to whatever you want */
+}      
+a:visited {
+      color: green; /* when a link has already been visited, change to whatever you want */
+      
