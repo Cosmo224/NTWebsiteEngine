@@ -39,15 +39,17 @@ table {
 table, th, td {
       border: 2px solid white;
 }
-a:hover {
-      color: yellow; /* the color when you mouse over a link, change to whatever you want */
-}      
+   
 a:link { 
       color: white; /* just to make sure the links are flush with the page, unclicked unhovered link. */
 }
-a:active {
-      color: blue; /* when a link is clicked, change to whatever you want */
-}      
+    
 a:visited {
       color: green; /* when a link has already been visited, change to whatever you want */
-      
+   
+a:hover {
+      color: yellow; /* the color when you mouse over a link, change to whatever you want */
+}   
+a:active {
+      color: blue; /* when a link is clicked, change to whatever you want */
+}
