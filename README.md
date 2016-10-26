@@ -11,6 +11,8 @@ Internet connection (duh). 56K is not going to cut it here.
 
 You MUST be able to download, extract and execute files.
 
+Notepad.
+
 ## RECOMMENDED:
 
 A decent laptop/PC
@@ -18,3 +20,5 @@ A decent laptop/PC
 Basic HTML, and really, CSS skills.
 
 Fast internet connection.
+
+Notepad++ or similar
