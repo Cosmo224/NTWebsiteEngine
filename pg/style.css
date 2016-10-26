@@ -1,4 +1,3 @@
-/* Copy of other style.css in root */
 body {
       background-color: black; /* background color, set this to anything you want */
       font-family: verdana; /* default font, set to anything you want, but try to stick to web safe fonts. Search them on google. */
@@ -40,15 +39,39 @@ table {
 table, th, td {
       border: 2px solid white;
 }
-a:hover {
-      color: yellow; /* the color when you mouse over a link, change to whatever you want */
-}      
+   
 a:link { 
       color: white; /* just to make sure the links are flush with the page, unclicked unhovered link. */
 }
-a:active {
-      color: blue; /* when a link is clicked, change to whatever you want */
-}      
+    
 a:visited {
       color: green; /* when a link has already been visited, change to whatever you want */
+}   
+a:hover {
+      color: yellow; /* the color when you mouse over a link, change to whatever you want */
+}   
+a:active {
+      color: blue; /* when a link is clicked, change to whatever you want */
+}
       
+ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+}
+li {
+      float: left; 
+}
+
+li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+}
+li a:hover 
+      background-color: #111
+}
