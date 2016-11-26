@@ -32,7 +32,9 @@ p {
       font-size: 12px;
       font-color: LightGray;
 }
-
+h9 {
+      font-size: 8px;
+}
 table {
       border-collapse: collapse; /* remove this if you want 2 headings */
 }      
